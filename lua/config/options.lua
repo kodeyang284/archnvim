@@ -6,3 +6,4 @@ local opt = vim.opt
 
 opt.list = false
 opt.tabstop = 2
+opt.mouse = ""
