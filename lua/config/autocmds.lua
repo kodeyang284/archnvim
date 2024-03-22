@@ -3,16 +3,21 @@
 -- Add any additional autocmds here
 
 -- Disable autoformat for lua files
-vim.api.nvim_create_autocmd({ "FileType" }, {
+
+local autocmd = vim.api.nvim_create_autocmd
+local delcmd = vim.api.nvim_del_augroup_by_name
+
+autocmd({ "FileType" }, {
   pattern = { "c", "cpp", "sh" },
   callback = function()
     vim.b.autoformat = false
   end,
 })
 
---vim.api.nvim_create_autocmd({ "FileType" }, {
---  pattern = { "*.h" },
---  callback = function()
---    vim.diagnostic.disable()
---  end,
---})
+autocmd("ExitPre", {
+  group = vim.api.nvim_create_augroup("Exit", { clear = true }),
+  command = "set guicursor=a:ver90",
+  desc = "Set cursor back to beam when leaving Neovim.",
+})
+
+delcmd("lazyvim_wrap_spell")
