@@ -24,5 +24,6 @@ return {
   { "windwp/nvim-ts-autotag", enabled = false },
   { "nvim-treesitter/nvim-treesitter-context", enabled = false },
   { "folke/todo-comments.nvim", enabled = false },
-  { "nvim-treesitter/nvim-treesitter", enabled = true },
+  { "lukas-reineke/indent-blankline.nvim", enabled = false },
+  { "echasnovski/mini.indentscope", enabled = false },
 }
