@@ -1,3 +1,4 @@
 lazyvim.json
 lazy-loc.json
 !.gitignore
+.*

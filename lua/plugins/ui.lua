@@ -14,16 +14,7 @@ return {
     end,
   },
   {
-    "telescope.nvim",
-    dependencies = {
-      "nvim-telescope/telescope-fzf-native.nvim",
-      build = "make",
-      config = function()
-        require("telescope").load_extension("fzf")
-      end,
-    },
-  },
-  {
+    enabled = false,
     "ahmedkhalf/project.nvim",
     opts = {
       sync_root_with_cmd = true,

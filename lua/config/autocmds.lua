@@ -14,6 +14,11 @@ autocmd({ "FileType" }, {
   end,
 })
 
+autocmd({ "BufWritePre" }, {
+  pattern = vim.fn.expand("$HOME/.fehbg"),
+  command = "!$HOME/.fehbg",
+})
+
 autocmd("ExitPre", {
   group = vim.api.nvim_create_augroup("Exit", { clear = true }),
   command = "set guicursor=a:ver90",
