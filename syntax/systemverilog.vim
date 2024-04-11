@@ -87,7 +87,7 @@ syn keyword verilogStatement   property endproperty
 syn keyword verilogStatement   program endprogram
 syn keyword verilogStatement   bins binsof illegal_bins ignore_bins
 syn keyword verilogStatement   alias matches solve static assert
-syn keyword verilogStatement   assume super before expect bind
+syn keyword verilogStatement   assume before expect bind
 syn keyword verilogStatement   extends null tagged extern this
 syn keyword verilogStatement   first_match throughout timeprecision
 syn keyword verilogStatement   timeunit priority type union unique

@@ -1,6 +1,7 @@
 return {
   {
     "craftzdog/solarized-osaka.nvim",
+    disabled = true,
     lazy = false,
     priority = 1000,
     opts = {
@@ -10,6 +11,7 @@ return {
 
   {
     "folke/tokyonight.nvim",
+    disabled = true,
     lazy = false,
     priority = 1000,
     opts = {
@@ -52,7 +54,7 @@ return {
       palette_overrides = {},
       overrides = {},
       dim_inactive = false,
-      transparent_mode = false,
+      transparent_mode = true,
     },
   },
 }
