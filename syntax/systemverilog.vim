@@ -87,7 +87,7 @@ syn keyword verilogStatement   property endproperty
 syn keyword verilogStatement   program endprogram
 syn keyword verilogStatement   bins binsof illegal_bins ignore_bins
 syn keyword verilogStatement   alias matches solve static assert
-syn keyword verilogStatement   assume before expect bind
+syn keyword verilogStatement   assume super before expect bind
 syn keyword verilogStatement   extends null tagged extern this
 syn keyword verilogStatement   first_match throughout timeprecision
 syn keyword verilogStatement   timeunit priority type union unique
@@ -227,6 +227,9 @@ syn keyword uvmMethod            set_report_severity_id_action_hier set_report_s
 syn keyword uvmMethod            set_report_verbosity_level_hier set_type_override set_type_override_by_type
 syn keyword uvmMethod            start_of_simulation status stop suspend
 syn keyword uvmMethod            build_phase connect_phase run_phase check_phase report_phase main_phase
+syn keyword uvmMethod            end_of_elaboration_phase start_of_simulation_phase pre_reset_phase reset_phase post_reset_phase
+syn keyword uvmMethod            pre_configure_phase configure_phase post_configure_phase pre_main_phase post_main_phase
+syn keyword uvmMethod            pre_shutdown_phase shutdown_phase post_shutdown_phase extract_phase final_phase
 syn keyword uvmDeprecatedMethod  configure export_connections find_component find_components get_component
 syn keyword uvmDeprecatedMethod  get_num_components
 "syn keyword uvmDeprecatedMethod  global_stop_request

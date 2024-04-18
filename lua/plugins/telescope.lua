@@ -7,4 +7,8 @@ return {
       require("telescope").load_extension("fzf")
     end,
   },
+  keys = {
+    { "<leader>fF", LazyVim.telescope("files"), desc = "Find Files (Root Dir)" },
+    { "<leader>ff", LazyVim.telescope("files", { cwd = false }), desc = "Find Files (cwd)" },
+  },
 }
