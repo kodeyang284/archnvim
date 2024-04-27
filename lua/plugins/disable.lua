@@ -25,5 +25,6 @@ return {
   { "folke/neoconf.nvim", enabled = false },
   { "lukas-reineke/indent-blankline.nvim", enabled = true },
   { "echasnovski/mini.indentscope", enabled = false },
+  { "Exafunction/codeium.nvim", enabled = false },
   --{ "nvim-treesitter/nvim-treesitter", enabled = false },
 }
