@@ -8,7 +8,7 @@ return {
     end,
   },
   keys = {
-    { "<leader>fF", LazyVim.telescope("files"), desc = "Find Files (Root Dir)" },
-    { "<leader>ff", LazyVim.telescope("files", { cwd = false }), desc = "Find Files (cwd)" },
+    { "<leader>fF", LazyVim.pick("files"), desc = "Find Files (Root Dir)" },
+    { "<leader>ff", LazyVim.pick("files", { cwd = "" }), desc = "Find Files (cwd)" },
   },
 }

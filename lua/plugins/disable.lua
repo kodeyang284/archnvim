@@ -21,10 +21,10 @@ return {
   { "nvim-telescope/telescope-fzf-native.nvim", enabled = true },
   { "windwp/nvim-ts-autotag", enabled = false },
   { "nvim-treesitter/nvim-treesitter-context", enabled = false },
-  { "folke/todo-comments.nvim", enabled = false },
+  { "folke/todo-comments.nvim", enabled = true },
   { "folke/neoconf.nvim", enabled = false },
   { "lukas-reineke/indent-blankline.nvim", enabled = true },
   { "echasnovski/mini.indentscope", enabled = false },
-  { "Exafunction/codeium.nvim", enabled = false },
+  --  { "Exafunction/codeium.nvim", enabled = false },
   --{ "nvim-treesitter/nvim-treesitter", enabled = false },
 }

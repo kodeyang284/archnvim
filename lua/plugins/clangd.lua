@@ -11,7 +11,7 @@ return {
             "--header-insertion=never",
             "--completion-style=detailed",
             "--function-arg-placeholders",
-            --"--fallback-style=llvm",
+            "--fallback-style=llvm",
           },
           init_options = {
             usePlaceholders = true,
