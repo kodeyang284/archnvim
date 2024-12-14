@@ -5,9 +5,8 @@ return {
     opts = {
       highlight = {
         enable = true,
-        disable = { "verilog" },
+        --disable = { "verilog" },
       },
     },
   },
-  { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}},
 }
