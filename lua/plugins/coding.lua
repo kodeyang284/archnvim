@@ -5,7 +5,7 @@ return {
       keymap = {
         preset = "enter",
         -- use Tab to commpletion , end disable enter
-        ["<Tab>"] = { "accept", "hide" },
+        ["<Tab>"] = { "accept", "fallback" },
         ["<CR>"] = { "fallback" },
       },
     },

@@ -1,6 +1,6 @@
 return {
-  { "rafamadriz/friendly-snippets", enabled = true },
-  { "L3MON4D3/LuaSnip", enabled = true },
+  { "rafamadriz/friendly-snippets", enabled = false },
+  { "L3MON4D3/LuaSnip", enabled = false },
   { "folke/flash.nvim", enabled = false },
   { "kkharji/sqlite.lua", enabled = false },
   { "mfussenegger/nvim-dap", enabled = false },
