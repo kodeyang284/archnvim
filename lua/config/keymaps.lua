@@ -8,8 +8,7 @@ local opt = { noremap = true, silent = true }
 keymap.set("i", "jk", "<esc>")
 keymap.set("i", "kj", "<esc>")
 keymap.set("n", "s", "xi")
+keymap.set("n", "Q", "q", opt)
+keymap.set("n", "q", "")
 keymap.set("n", "<leader>nh", ":nohl<Return>", opt)
 keymap.set("n", "<leader>nm", ":delmarks!<Return>", opt)
-
---local builtin = require("telescope.builtin")
---keymap.set("n", "gt", builtin.tags, { desc = "go to ctags telescope", noremap = true })

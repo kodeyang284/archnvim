@@ -31,6 +31,7 @@ return {
       dim = { enabled = false },
       scroll = { enabled = false },
       scope = { enabled = false },
+      indent = { enabled = false },
     },
   },
 }

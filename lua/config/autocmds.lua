@@ -10,7 +10,7 @@ local delcmd = vim.api.nvim_del_augroup_by_name
 autocmd({ "FileType" }, {
   pattern = { "c", "cpp", "sh" },
   callback = function()
-    vim.b[0].autoformat = false
+    vim.b.autoformat = false
   end,
 })
 
