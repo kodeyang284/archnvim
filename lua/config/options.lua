@@ -8,6 +8,8 @@ opt.list = false
 opt.tabstop = 2
 opt.mouse = ""
 opt.cursorline = false
+opt.encoding = "utf-8"
+opt.fileencoding = "utf-8"
 
 --- disable all snacks animations
 vim.g.snacks_animate = false
