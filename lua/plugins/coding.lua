@@ -11,7 +11,7 @@ return {
     },
   },
   {
-    "echasnovski/mini.pairs",
+    "nvim-mini/mini.pairs",
     opts = {
       mappings = {
         ["'"] = { action = "close", pair = "''", neigh_pattern = "[^%a\\].", register = { cr = false } },
@@ -19,4 +19,12 @@ return {
       },
     },
   },
+  --{
+  --  "stevearc/conform.nvim",
+  --  opts = {
+  --    formatters_by_ft = {
+  --      python = { "black" },
+  --    },
+  --  },
+  --},
 }
